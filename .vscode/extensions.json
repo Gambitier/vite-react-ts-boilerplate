@@ -3,6 +3,7 @@
     "esbenp.prettier-vscode",
     "donjayamanne.githistory",
     "mikestead.dotenv",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets"
   ]
 }
