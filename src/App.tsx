@@ -1,12 +1,14 @@
-import { Head } from "@/components/Head";
 import { HelmetProvider } from "react-helmet-async";
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
 
 function App() {
   return (
-    <HelmetProvider>
-      <Head />
-      Hello World
-    </HelmetProvider>
+    <BrowserRouter>
+      <HelmetProvider>
+        <AppRoutes />
+      </HelmetProvider>
+    </BrowserRouter>
   );
 }
 
