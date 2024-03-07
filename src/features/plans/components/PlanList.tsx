@@ -1,3 +1,5 @@
+import { CryptoIcon, CurrencyCode } from "@/components/Elements";
+
 const PlanList = () => {
   const plans = [
     {
@@ -17,6 +19,7 @@ const PlanList = () => {
   return (
     <div>
       <h2>Choose a Plan</h2>
+      <CryptoIcon currencyCode={CurrencyCode.BTC} />
       <ul>
         {plans.map((plan) => (
           <li key={plan.id}>
